@@ -17,12 +17,7 @@ public class Student {
     private LocalDate dateOfBirth;
     private LocalTime timeOfBirth;
 
-    public Student(int id, String name, LocalDate dateOfBirth, LocalTime timeOfBirth) {
-        this.id = id;
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-        this.timeOfBirth = timeOfBirth;
-
+    public Student() {
     }
 
     public int getId() {
